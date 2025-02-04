@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Escape Room hecho por: Iván</title>
+</head>
+<body>
+  
+    <nav>
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="nosotros.html">Enigma 1</a></li>
+<li><a href="enigma2.html">Enigma 2</a></li>
+</ul>
+</nav>
+  
+    <section>
+<h2>Enigma 2</h2>
+</section>
+  
+
+  
+    <footer>
+<p>&copy; IYB-2025</p>
+</footer>
+  </section>
+</body>
+</html>
