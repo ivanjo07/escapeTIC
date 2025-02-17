@@ -24,28 +24,29 @@
 </ul>
 </nav>
 
-<section>
-   <h2>Reserva una sesión con nosotros</h2>
- 
-    <form action="procesar.php" method="POST">
-<label for="nombre">Nombre:</label>
-<input type="text" id="nombre" name="nombre" required>
+<h3>¿Preparado? Reserva con nosotros.</h3>
 
-<label for="apellidos">Apellidos:</label>
-<input type="text" id="apellidos" name="apellidos" required>
-        
-        <label for="email">Correo Electrónico:</label>
-<input type="email" id="email" name="email" required>
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Nombre:</label>
+    <input type="text" id="fname" name="firstname" placeholder="Me llamo...">
 
-                <label for="personas">Numero de personas:</label>
-<input type="text" id="personas" name="personas" required>
- 
-        <label for="mensaje">Motivo de la sesión:</label>
-<textarea id="mensaje" name="mensaje" rows="4" required></textarea>
- 
-        <button type="submit">Enviar</button>
-</form>
-  </section>
+    <label for="lname">Apellidos:</label>
+    <input type="text" id="lname" name="lastname" placeholder="Me apellido...">
+
+    <label for="country">Provincia:</label>
+    <select id="country" name="country">
+      <option value="australia">Madrid</option>
+      <option value="canada">Barcelona</option>
+      <option value="usa">Salamanca</option>
+    </select>
+
+      <textarea id="subject" name="Motivo:" placeholder="Cuentanos el motivo de tu visita..." style="height:200px">
+      </textarea>
+  
+    <input type="Enviar" value="Enviar">
+  </form>
+</div>
 
     <footer>
 <p>&copy; IYB-2025</p>
